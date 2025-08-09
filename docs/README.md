@@ -52,11 +52,23 @@ src/
 - Entities do not draw themselves; the renderer is the single place that touches Canvas APIs.
 
 ## Extension Mindset
-- New features should be isolated in new modules and called from the loop at clear extension points (see `docs/EXTENSIONS.md`).
+- New features should be isolated in new modules and called from the loop at clear extension points (see `docs/MODDING.md`).
 - Avoid mixing concerns (e.g., no physics in the renderer, no rendering in entities).
 
 See:
 - `docs/ARCHITECTURE.md` for system responsibilities and data flow.
-- `docs/EXTENSIONS.md` for recipes to add features.
+- `docs/MODDING.md` for recipes to add features.
 - `docs/CONTRIBUTING.md` for style and conventions.
 - `docs/ROADMAP.md` for milestone guidance.
+
+## Design Docs
+- `design/GAME_DESIGN_OVERVIEW.md`
+- `design/STORY_LORE.md`
+- `design/CORE_LOOP.md`
+- `design/PLAYER_UPGRADES.md`
+- `design/OPPONENTS.md`
+- `design/ARENAS.md`
+- `design/META_HUB.md`
+- `design/CARDS_CATALOG.md`
+- `design/ENEMY_CATALOG.md`
+- `design/BALANCE_NOTES.md`
