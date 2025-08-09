@@ -24,5 +24,5 @@ One-page map of the game vision, pillars, win/lose conditions, meta-progression 
 - [ARENAS.md](./ARENAS.md)
 - [META_HUB.md](./META_HUB.md)
 - [CARDS_CATALOG.md](./CARDS_CATALOG.md)
-- [ENEMY_CATALOG.md](./ENEMY_CATALOG.md)
+- [OPPONENTS.md](./OPPONENTS.md)
 - [BALANCE_NOTES.md](./BALANCE_NOTES.md)

@@ -70,5 +70,4 @@ See:
 - `design/ARENAS.md`
 - `design/META_HUB.md`
 - `design/CARDS_CATALOG.md`
-- `design/ENEMY_CATALOG.md`
 - `design/BALANCE_NOTES.md`
