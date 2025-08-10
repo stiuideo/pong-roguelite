@@ -3,7 +3,7 @@
 This document orients future contributors and AI agents to extend this codebase cleanly. It summarizes goals, constraints, structure, and the core loop.
 
 ## Goals
-- Build a modular, extensible foundation for a roguelike Pong (AI opponents, powers, levels, cards).
+- Build a modular, extensible foundation for a roguelite Pong (AI opponents, powers, levels, cards).
 - Keep the main loop clean; isolate concerns per module.
 - Prefer readability and maintainability over micro-optimizations.
 

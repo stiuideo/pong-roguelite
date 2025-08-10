@@ -10,12 +10,12 @@ Never invent new mechanics not listed here without adding them to GAME_DESIGN_OV
 One-page map of the game vision, pillars, win/lose conditions, meta-progression philosophy, and links to detailed design docs.
 ## Pillars
 - Pong Core, Roguelite Spice
-- High readabilty, escalating chaos
+- High readability, escalating chaos
 - Meaningful trade-offs over raw power
 ## Canon
 - Run-based structure with meta-progression (roguelite, not roguelike)
 - Every match = arena + opponent + ball modifier
-- 3-card draft after matches; cards include trade-offs and cosmetic changes
+- 3-card draft after matches; cards include trade-offs and visual changes
 ## Links
 - [STORY_LORE.md](./STORY_LORE.md)
 - [CORE_LOOP.md](./CORE_LOOP.md)
@@ -24,5 +24,4 @@ One-page map of the game vision, pillars, win/lose conditions, meta-progression 
 - [ARENAS.md](./ARENAS.md)
 - [META_HUB.md](./META_HUB.md)
 - [CARDS_CATALOG.md](./CARDS_CATALOG.md)
-- [OPPONENTS.md](./OPPONENTS.md)
 - [BALANCE_NOTES.md](./BALANCE_NOTES.md)

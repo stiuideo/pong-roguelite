@@ -32,7 +32,7 @@ Extend state by adding new fields (e.g., `rng`, `mode`, `effects`) but keep init
 ## Game Loop
 - Fixed-step `dt = 1/60` with accumulator; prevents variable update rates.
 - Update order (intentional): Input → AI → Entities → Physics → Scoring → Render.
-- Extension points are between these phases (see `EXTENSIONS.md`).
+- Extension points are between these phases (see `MODDING.md`).
 
 ## Rendering
 - `renderer.js` exposes:

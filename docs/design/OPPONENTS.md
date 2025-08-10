@@ -15,19 +15,19 @@ Define the philosophy behind opponent design, the rules for creating them, and c
 ## Philosophy & Design Rules
 - Every opponent is a **paddle** with a unique ability or mechanic that changes rally dynamics.
 - Opponents should have **memorable names**, themed abilities, and distinct personalities.
-- High-tier/Boss opponents should feel mechanically and visually distinct from lower-tier opponents.
-- Beating a **new High-tier/Boss opponent** unlocks a new, more powerful card type in the upgrade pool.
+- High-Tier (Boss) opponents should feel mechanically and visually distinct from lower-tier opponents.
+- Beating a **new High-Tier (Boss) opponent** unlocks a new, more powerful card type in the upgrade pool.
 - Opponent abilities must:
   - Interact meaningfully with both the ball and the player’s paddle.
   - Be readable at a glance (clear visual indicators).
-  - Scale in complexity and challenge from lower-tier to boss-tier.
+  - Scale in complexity and challenge from lower-tier to High-Tier (Boss).
 
 ---
 
 ## Tier Guidelines
 - **Lower-Tier:** Simple mechanics, mild difficulty. Introduce player to variety without overwhelming them.
 - **Mid-Tier:** Abilities that require adaptation and strategy; moderate arena effect synergy.
-- **High-Tier/Boss:** Strong, signature abilities; complex attack patterns; often paired with extreme arena effects.
+- **High-Tier (Boss):** Strong, signature abilities; complex attack patterns; often paired with extreme arena effects.
 
 ---
 
@@ -35,7 +35,7 @@ Define the philosophy behind opponent design, the rules for creating them, and c
 
 ### ID: OPP_MIRROR
 - **Name:** Mirror Paddle
-- **Tier:** High-Tier/Boss
+- **Tier:** High-Tier (Boss)
 - **Ability Kit:** Copies all upgrades the player has chosen so far.
 - **Special Rules:** Gains the copied upgrade effects immediately before match start.
 - **Arena Affinity:** Neutral — can appear in any arena.
@@ -66,7 +66,7 @@ Define the philosophy behind opponent design, the rules for creating them, and c
 
 ### ID: OPP_OCTOPUS
 - **Name:** Octopus
-- **Tier:** High-Tier/Boss
+- **Tier:** High-Tier (Boss)
 - **Ability Kit:** Controls 4 smaller paddles linked together; can intercept ball at multiple heights.
 - **Special Rules:** Mini-paddles have reduced length and move slightly slower than main paddle.
 - **Arena Affinity:** Works best in large arenas with multiple ball spawn points.
@@ -105,7 +105,7 @@ Define the philosophy behind opponent design, the rules for creating them, and c
   - Bit Flip cannot trigger twice in a row; 1s lockout.
   - Both abilities are disabled during serves.
 - **Arena Affinity:** Strong in narrow arenas where vertical space is limited, allowing teleports to consistently cover the ball.
-- **Unlocks:** None unique — counts toward “Defeat any Mid-tier boss” unlocks.
+- **Unlocks:** None unique — counts toward “Defeat any Mid-Tier (Boss)” unlocks.
 - **Numerics:**
   - Teleport distance = 0.3 paddle lengths; cooldown = 6–9s random.
   - Bit Flip chance = 15%; lockout = 1s.
@@ -121,7 +121,7 @@ Define the philosophy behind opponent design, the rules for creating them, and c
   - Echo balls are harmless but visually distracting; their trail opacity increases if they pass near your paddle.
   - Sound Burst applies only to real balls, never to echoes.
 - **Arena Affinity:** Best in high-contrast arenas where echoes are hard to visually ignore.
-- **Unlocks:** None unique — counts toward “Defeat any Mid-tier boss” unlocks.
+- **Unlocks:** None unique — counts toward “Defeat any Mid-Tier (Boss)” unlocks.
 - **Numerics:**
   - Echo delay = 1.5s lifespan; speed = 50% of real ball.
   - Sound Burst frequency = every 4th hit; speed multiplier = 1.15.
@@ -138,7 +138,7 @@ Define the philosophy behind opponent design, the rules for creating them, and c
   - Data Corruption does **not** alter ball physics — only visuals — so skilled players can ignore the fake cues, but it’s disorienting.
   - Archivist’s AI prioritizes using Pattern Recall at high ball speeds for maximum pressure.
 - **Arena Affinity:** Excels in arenas with low visual clutter, where Data Corruption is harder to mentally filter out.
-- **Unlocks:** High-tier pool; counts toward “Defeat any High-tier boss” unlocks.
+- **Unlocks:** High-Tier (Boss) pool; counts toward “Defeat any High-Tier (Boss)” unlocks.
 - **Numerics:**
   - Pattern Recall window: stores last 3 player hits (speed, angle, spin); picks one at random.
   - Data Corruption frequency = every 5th hit; visual distortion = 2s.

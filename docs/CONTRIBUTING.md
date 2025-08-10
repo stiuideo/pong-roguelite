@@ -43,4 +43,4 @@ Guidelines to keep the codebase consistent, readable, and extensible.
 
 ## Definition of Done
 - Code follows the above discipline and passes manual tests.
-- New modules are documented briefly in `docs/EXTENSIONS.md` or inline with concise docstrings.
+- New modules are documented briefly in `docs/MODDING.md` or inline with concise docstrings.

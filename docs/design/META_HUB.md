@@ -28,7 +28,7 @@ Define the post-death space where the player prepares for the next run, interact
 
 2. **Post-Death Review**
    - Summary of match performance.
-   - List of new cards unlocked (if a new High-tier/Boss was defeated).
+   - List of new cards unlocked (if a new High-Tier (Boss) opponent was defeated).
    - Updated opponent/arena intel.
 
 3. **Currency Spending**
@@ -54,7 +54,7 @@ Define the post-death space where the player prepares for the next run, interact
 ---
 
 ### Unlock Flow
-- **New Cards:** Unlocked immediately upon first victory over a new High-tier/Boss opponent.
+- **New Cards:** Unlocked immediately upon first victory over a new High-Tier (Boss) opponent.
 - **New Paddle Styles:** Purchased with Ball Bearings after meeting specific performance conditions (e.g., win 3 matches without losing a point).
 
 ---
