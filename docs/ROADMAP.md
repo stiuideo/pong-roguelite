@@ -1,6 +1,6 @@
 # Roadmap
 
-Milestones to evolve classic Pong into a roguelike arcade experience.
+Milestones to evolve classic Pong into a roguelite arcade experience.
 
 ## M1: Core Polish
 - Ball/paddle polish: edge cases, speed capping, angle tuning
@@ -18,7 +18,7 @@ Milestones to evolve classic Pong into a roguelike arcade experience.
 - Level progression with themed parameters and win/lose conditions
 
 ## M4: Card Drafts & Meta
-- Between rounds, present 2–3 cards (canvas UI)
+- Between rounds, present 3 cards (canvas UI)
 - Card effects stack; persist temporary run state
 - Add simple meta-progression saved to `localStorage`
 
