@@ -53,15 +53,15 @@ A single run consists of:
 ### Match Rules & Championship Structure
 - **Points to Win a Match:** First player to score **6 points** wins.
 - **Championship Format:** A run consists of **7 matches** total.
-  - Matches 1–2: Lower-tier opponents, mild arena effects.
-  - Matches 3–4: Mid-tier opponents, moderate arena effects.
-  - Matches 5–7: High-tier/boss opponents, extreme arena effects.
+  - Matches 1–2: Lower-Tier opponents, mild arena effects.
+  - Matches 3–4: Mid-Tier opponents, moderate arena effects.
+  - Matches 5–7: High-Tier (Boss) opponents, extreme arena effects.
 - **Progression:** Player must win all 7 matches in a row to become Champion.
 
 ---
 
 ### Progression Rules
-- Defeating **new High-tier/boss opponents** = unlocks new, more powerful card types.
+- Defeating **new High-Tier (Boss) opponents** unlocks new, more powerful card types.
 - Certain deaths unlock new dialog lines or hub interactions.
 - Arena variety ensures each run feels distinct.
 

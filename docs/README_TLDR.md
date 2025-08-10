@@ -6,5 +6,5 @@
 - Respect and extend `state` via `core/state.js`.
 - Physics mutates entities; it does not render.
 - AI lives under `src/ai/` and only controls behaviors.
-- Use `docs/EXTENSIONS.md` for recipes.
+- Use `docs/MODDING.md` for recipes.
 - Keep it readable; optimize last.

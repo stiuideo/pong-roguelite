@@ -14,6 +14,7 @@ Use per-card blocks:
 - **Name:** <Readable Name>
 - **Type:** Paddle Upgrade | Ball Modifier | Arena Boon | Curse
 - **Rarity:** Common/Uncommon/Rare/Legendary
+- **Duration:** Next match only | Persistent this run | Other (specify)
 - **Effect:** <Exact effect>
 - **Trade-off:** <Exact trade-off or “None”>
 - **Numerics:** <All tunables with default values>
@@ -27,7 +28,7 @@ Use per-card blocks:
 * **Common:** Accessible from match 1; simple stat shifts with mild trade-offs.
 * **Uncommon:** Appear from match 2 onward; introduce moderate ability twists.
 * **Rare:** Appear from match 3 onward; more complex effects, often unlocked via specific opponent defeats.
-* **Legendary:** Appear from match 5 onward; highly impactful, unique synergies, require boss-tier unlocks.
+* **Legendary:** Appear from match 5 onward; highly impactful, unique synergies, require High-Tier (Boss) unlocks.
 
 ## Paddle Upgrades
 
@@ -41,7 +42,7 @@ Use per-card blocks:
 * **Numerics:** Curve strength radius = 120px; length reduction = 10%.
 * **Synergies:** Boom Ball, Slow Time.
 * **Visuals:** Subtle shimmering field around paddle.
-* **Unlock:** Defeat any Mid-tier boss.
+* **Unlock:** Defeat any Mid-Tier (Boss).
 * **Notes:** Strong in control builds; loses reach in corners.
 
 ### ID: TURBO_BOOST
@@ -92,7 +93,7 @@ Use per-card blocks:
 - **Numerics:** Extension multiplier = 1.25; extension duration = 1s; cooldown = 6s; speed multiplier = 0.95.
 - **Synergies:** Turbo Boost, Sticky Floor.
 - **Visuals:** Paddle briefly elongates with a stretching animation.
-- **Unlock:** Defeat any Mid-tier boss.
+- **Unlock:** Defeat any Mid-Tier (Boss).
 - **Notes:** Timing-based reach advantage.
 
 ### ID: SLOW_TIME
@@ -222,7 +223,7 @@ Use per-card blocks:
 * **Numerics:** Spin variance ±20°.
 * **Synergies:** Windy Zone, Kamaleon.
 * **Visuals:** Ball trail shifts color based on spin direction.
-* **Unlock:** Defeat two High-tier bosses in a single run.
+* **Unlock:** Defeat two High-Tier (Boss) opponents in a single run.
 * **Notes:** High-skill, high-risk.
 
 ### ID: FIREBALL
@@ -292,6 +293,8 @@ Use per-card blocks:
 
 ## Arena Boons / Curses
 
+Note on scope: Unless otherwise specified, Arena Boons and Arena Curses apply to the next match only.
+
 ### ID: STICKY_FLOOR
 
 * **Name:** Sticky Floor
@@ -310,6 +313,7 @@ Use per-card blocks:
 - **Name:** Tongue Lash
 - **Type:** Arena Boon
 - **Rarity:** Legendary
+- **Duration:** Next match only
 - **Effect:** When the ball is within 0.5 paddle lengths of your back wall (about to concede a point), you may instantly “catch” it and relaunch it into play from your paddle’s current position. The relaunch can alter the ball’s angle by up to ±20° toward the opponent’s side.
 - **Trade-off:** 30s cooldown between uses (player). AI opponents may only use this ability once per match.
 - **Numerics:** Catch trigger distance = 0.5 paddle lengths; cooldown = 30s (player); AI limit = 1 use per match; relaunch speed = 90% of ball’s incoming speed; angle adjustment range = ±20°.
@@ -354,7 +358,7 @@ Use per-card blocks:
 * **Numerics:** Speed multiplier = 1.2; time penalty = −1 point per 25s continuous rally.
 * **Synergies:** Fireball, Chaos Spin.
 * **Visuals:** Red glow intensifies as penalty approaches.
-* **Unlock:** Defeat any Mid-tier boss.
+* **Unlock:** Defeat any Mid-Tier (Boss) opponent.
 * **Notes:** Forces aggressive, point-ending plays.
 
 ### ID: HEAVY_GRAVITY
@@ -429,7 +433,7 @@ Use per-card blocks:
 * **Effect:** Adds semi-transparent fog overlay to arena.
 * **Trade-off:** Both paddles move −5% speed.
 * **Numerics:** Visibility reduction = \~30%; paddle speed multiplier = 0.95.
-* **Synergies:** Lights Out, Camo Sphere.
+* **Synergies:** Blackout, Camo Sphere.
 * **Visuals:** Animated fog drifting.
 * **Unlock:** Default pool.
 * **Notes:** Reduces readability for both players.
@@ -438,7 +442,7 @@ Use per-card blocks:
 - **Name:** Lucky Bounce
 - **Type:** Arena Boon
 - **Rarity:** Rare
-- **Effect:** First paddle hit each rally redirects ball toward opponent’s corner with +10° angle bias.
+- **Effect:** In the next match, the first paddle hit each rally redirects the ball toward the opponent’s corner with +10° angle bias.
 - **Trade-off:** Your paddle rebound speed −5%.
 - **Numerics:** Angle shift = +10°; rebound speed multiplier = 0.95.
 - **Synergies:** Magnet Paddle, Chaos Spin.

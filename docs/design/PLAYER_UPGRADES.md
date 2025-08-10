@@ -28,7 +28,7 @@ Define the player’s paddle identity, the upgrade acquisition system, and the r
   - **Paddle Upgrades** – Affect size, speed, special abilities.
   - **Ball Modifiers** – Change ball physics, behavior, or interactions.
   - **Arena Boons/Curses** – Affect the playfield during future matches.
-- Defeating a **new High-tier/Boss opponent** unlocks a new, more powerful card type for future runs.
+- Defeating a **new High-Tier (Boss) opponent** unlocks a new, more powerful card type for future runs.
 
 ---
 

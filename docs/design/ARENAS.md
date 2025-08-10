@@ -21,7 +21,7 @@ Define the biome-style arenas, their environmental effects, and design rules for
   - Build contrast for later, more chaotic arenas.
   - Reinforce the story’s early-game “boring void” tone.
 - **Mid-Tier Arenas:** Introduce one significant, readable modifier.
-- **High-Tier/Boss Arenas:** Strong, often chaotic effects; can combine multiple modifiers.
+- **High-Tier (Boss) Arenas:** Strong, often chaotic effects; can combine multiple modifiers.
 - Arena effects must:
   - Be visually communicated to the player.
   - Interact with the ball, paddle, or both.
@@ -88,7 +88,7 @@ Define the biome-style arenas, their environmental effects, and design rules for
 
 #### ID: ARENA_PARTY_ZONE
 - **Name:** Party Zone
-- **Tier:** High-Tier/Boss
+- **Tier:** High-Tier (Boss)
 - **Effect:** Lights strobe and colors shift rapidly; occasional full-screen flashes.
 - **Visuals:** Disco-style background, pulsing floor.
 - **Numerics:** Lighting change rate = 0.5–1.5s intervals.
@@ -100,11 +100,11 @@ Define the biome-style arenas, their environmental effects, and design rules for
 - **Effect:** A waterline occupies the bottom 15% of the screen. When the ball hits the water, it “drowns” and a new ball spawns from the center.
 - **Visuals:** Animated water surface with splashes.
 - **Numerics:** Waterline height = 15% screen height; splash animation 0.3s.
-- **Notes:** Changes player strategy for low hits; increases randomness.
+- **Notes:** Changes player strategy for low hits; increases randomness. Scoring: No point is awarded; the ball is reset to center (neutral serve).
 
 #### ID: ARENA_ZERO_G
 - **Name:** Zero-G Chamber
-- **Tier:** High-Tier/Boss
+- **Tier:** High-Tier (Boss)
 - **Effect:** Reduced gravity makes balls bounce higher and stay in play longer.
 - **Visuals:** Floating debris, low-gravity ball arcs.
 - **Numerics:** Gravity scale = 40% of default; ball air time increased ~1.6×.
@@ -112,7 +112,7 @@ Define the biome-style arenas, their environmental effects, and design rules for
 
 #### ID: ARENA_BLACKOUT
 - **Name:** Blackout
-- **Tier:** High-Tier/Boss
+- **Tier:** High-Tier (Boss)
 - **Effect:** Lights periodically go out, hiding paddles, ball, and arena.
 - **Visuals:** Full darkness with occasional sparks or flashes revealing positions.
 - **Numerics:** Darkness lasts 1s; visible phase lasts 4s.
@@ -120,7 +120,7 @@ Define the biome-style arenas, their environmental effects, and design rules for
 
 #### ID: ARENA_ARCHIVE_STACK
 - **Name:** Archive Stack
-- **Tier:** High-Tier/Boss
+- **Tier:** High-Tier (Boss)
 - **Effect:** **Playback Tracks.** Three faint horizontal “tape tracks” (at 25%, 50%, 75% screen height) record the ball’s vector when it crosses them and “stamp” it for a short window. If the ball crosses the *same* track again while a stamp is active, its outgoing angle **snaps to the stamped vector** (Pattern Replay) at 90% of current speed, overriding normal contact angle for that bounce only. While the ball travels within 12px of a track, a mild **tape drag** curves its path by up to ±6° along the track.
 - **Visuals:** Twin tape reels turning in the background; the active track glows with a timecode tick. When a vector is stamped, a short ghost-arrow sits on the track showing the stored angle; on replay, the arrow “rewinds” and the ball follows it for a beat.
 - **Numerics:** Track positions = 25% / 50% / 75% screen height; stamp lifetime = 3.0s; replay speed multiplier = 0.9; tape-drag curvature = up to ±6° within 12px radius; per-track replay cooldown = 5s; disabled during serves and for 0.5s after a point.
